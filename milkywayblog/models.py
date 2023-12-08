@@ -4,7 +4,7 @@ from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
-# Taken from I Think Therefore I Blog
+# Taken from I Think Therefore I Blog Walkthrough
 # Post Models
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
